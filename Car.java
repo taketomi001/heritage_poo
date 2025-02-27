@@ -6,6 +6,6 @@ public Car(String brand, int kilometers){
 
     @Override
     public String doStuff() {
-       return "Je suis "+brand+" et je fais vroum vroum !";
+       return "Je suis "+getBrand()+" et je fais vroum vroum !";
     }
 }
